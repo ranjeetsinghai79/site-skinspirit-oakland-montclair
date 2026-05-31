@@ -2,162 +2,61 @@ import type { SiteConfig } from "@core/web/types"
 
 export const config: SiteConfig = {
   business: {
-  city: "Tracy",
-  theme: "slate",
-  niche: "medspa",
-  name: "Lumière Med Spa",
-  tagline: "Where Science Meets Beauty.",
-  phone: "(555) 456-7890",
-  phoneHref: "tel:+15554567890",
-  email: "hello@lumieremedspa.com",
-  address: "Tracy, California",
-  serviceAreas: ["Tracy", "Stockton", "Manteca", "Mountain House", "Dublin", "Pleasanton"],
-  license: "CA MED #98765",
-  since: "2015",
-  google_rating: "5.0",
-  review_count: "234",
-  emergency: false,
-  social: {
-    google: "https://google.com",
-    yelp: "https://yelp.com",
-    facebook: "https://facebook.com",
+    name: "SkinSpirit",
+    tagline: "Reveal Your Radiance Today",
+    phone: "(510) 368-7500",
+    phoneHref: "tel:+15103687500",
+    email: "montclair@skinspirit.com",
+    address: "2017 Mountain Blvd. , Oakland, CA-94611",
+    city: "Oakland",
+    serviceAreas: ["Oakland", "Montclair", "East Bay"],
+    license: "CA Medical License",
+    since: "2002",
+    google_rating: "4.9",
+    review_count: "200",
+    emergency: false,
+    theme: "slate",
+    niche: "medspa",
   },
-},
 
   services: [
-  {
-    icon: "sparkles",
-    title: "Botox & Fillers",
-    desc: "Natural-looking wrinkle reduction and volume restoration. Board-certified injectors. Results you'll love.",
-    urgent: false,
-  },
-  {
-    icon: "zap",
-    title: "Laser Hair Removal",
-    desc: "Permanent hair reduction on all skin types. 6-session packages with dramatic, lasting results.",
-    urgent: false,
-  },
-  {
-    icon: "droplets",
-    title: "HydraFacial",
-    desc: "Deep cleanse, extract, and hydrate in 30 minutes. Instant glow. Zero downtime. A client favorite.",
-    urgent: false,
-  },
-  {
-    icon: "sun",
-    title: "Chemical Peels",
-    desc: "Resurface and renew with medical-grade peels. Treat acne, hyperpigmentation, and fine lines.",
-    urgent: false,
-  },
-  {
-    icon: "activity",
-    title: "Microneedling",
-    desc: "Stimulate collagen naturally. Treats scars, texture, and signs of aging. PRP add-on available.",
-    urgent: false,
-  },
-  {
-    icon: "star",
-    title: "Body Contouring",
-    desc: "Non-surgical fat reduction and skin tightening. Sculpt your silhouette without surgery or downtime.",
-    urgent: false,
-  },
-],
+    { icon: "sparkles", title: "Botox & Dysport", desc: "Smooth fine lines and wrinkles for a refreshed, youthful appearance.", urgent: false },
+    { icon: "heart", title: "Dermal Filler", desc: "Restore volume, enhance contours, and achieve natural-looking rejuvenation.", urgent: false },
+    { icon: "star", title: "Laser Hair Removal", desc: "Achieve long-lasting smooth skin with advanced, comfortable laser technology.", urgent: false },
+    { icon: "thermometer", title: "CoolSculpting", desc: "Freeze away stubborn fat cells to sculpt and contour your body non-invasively.", urgent: false },
+    { icon: "shield-check", title: "Signature Facial", desc: "Experience a personalized facial treatment for glowing, healthy skin.", urgent: false },
+    { icon: "scissors", title: "Chemical Peels", desc: "Improve skin texture and tone, reducing imperfections for a radiant complexion.", urgent: false }
+  ],
 
   testimonials: [
-  {
-    name: "Amanda W.",
-    location: "Tracy, CA",
-    stars: 5,
-    text: "My Botox looks so natural — exactly what I wanted. The injector took so much time to understand my goals. I've been coming back every 4 months for 2 years.",
-  },
-  {
-    name: "Priya K.",
-    location: "Stockton, CA",
-    stars: 5,
-    text: "Laser hair removal changed my life. After 6 sessions, I'm basically hair-free. The staff made me feel comfortable the entire time.",
-  },
-  {
-    name: "Rachel D.",
-    location: "Dublin, CA",
-    stars: 5,
-    text: "Monthly HydraFacials have completely transformed my skin. I get compliments constantly. Worth every single penny.",
-  },
-],
+    { name: "Sarah L.", location: "Oakland, CA", stars: 5, text: "I had a fantastic experience with my Botox treatment at SkinSpirit. The staff was incredibly professional and made me feel comfortable throughout the entire process. My results are subtle yet noticeable, exactly what I wanted! I'm so happy with how refreshed I look. Highly recommend their expertise!" },
+    { name: "Michael P.", location: "Montclair, CA", stars: 5, text: "The Dermal Filler treatment I received here was exceptional. The practitioner listened to my concerns and delivered results that look completely natural. It's been a few weeks, and I still feel great about the subtle enhancement. The clinic itself is beautiful and very welcoming." },
+    { name: "Jessica R.", location: "East Bay, CA", stars: 5, text: "My laser hair removal sessions have been a game-changer. After just a few treatments, I've seen a significant reduction in hair growth. The technicians are always gentle and thorough, explaining each step. It's truly worth the investment for the convenience and confidence it brings." }
+  ],
 
   trustBadges: [
-  "Board-Certified Providers",
-  "FDA-Approved Treatments",
-  "Medical-Grade Products",
-  "Free Consultations",
-  "Financing Available",
-  "5-Star Rated on Google",
-],
+    "20 Years Experience", "Highly Trained Experts", "Personalized Care", "Safe & Trusted Treatments", "Noticeable Results"
+  ],
 
   stats: [
-  {
-    "value": 5,
-    "label": "Google Rating",
-    "suffix": "★",
-    "decimals": 1
-  },
-  {
-    "value": 1170,
-    "label": "Jobs Done",
-    "suffix": "+",
-    "decimals": 0
-  },
-  {
-    "value": 11,
-    "label": "Yrs Experience",
-    "suffix": "+",
-    "decimals": 0
-  }
-],
+    { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
+    { value: 20, label: "Yrs Experience", suffix: "+", decimals: 0 },
+    { value: 10000, label: "Happy Clients", suffix: "+", decimals: 0 }
+  ],
 
   reasons: [
-  {
-    "icon": "clock",
-    "title": "Fast Response",
-    "desc": "Same-day service when you need it. We don't keep customers waiting."
-  },
-  {
-    "icon": "dollar-sign",
-    "title": "Upfront Pricing",
-    "desc": "Quote before work starts. The number we say is the number you pay."
-  },
-  {
-    "icon": "award",
-    "title": "Certified Professionals",
-    "desc": "Licensed, insured, and trained. Real expertise on every job."
-  },
-  {
-    "icon": "thumbs-up",
-    "title": "Satisfaction Guarantee",
-    "desc": "100% happy or we come back and make it right. No questions asked."
-  },
-  {
-    "icon": "phone",
-    "title": "AI Reception 24/7",
-    "desc": "AI concierge books treatments, answers service questions, and collects reviews via call, text, or WhatsApp. Available 24/7, never a wait."
-  },
-  {
-    "icon": "truck",
-    "title": "Fully Equipped",
-    "desc": "Trucks stocked with everything needed. First-visit completion rate above 90%."
-  }
-],
+    { icon: "award", title: "Certified Experts", desc: "Our team consists of highly trained and certified medical professionals." },
+    { icon: "sparkles", title: "Noticeable Results", desc: "We deliver effective treatments that provide visible and lasting improvements." },
+    { icon: "shield-check", title: "Safe & Trusted", desc: "Your safety is our priority with rigorously tested and approved procedures." },
+    { icon: "heart", title: "Personalized Journey", desc: "We tailor every treatment plan to your unique needs and aesthetic goals." },
+    { icon: "clock", title: "20 Years Experience", desc: "Benefit from two decades of leadership and innovation in medical aesthetics." },
+    { icon: "thumbs-up", title: "Client Satisfaction", desc: "We are dedicated to ensuring every client leaves feeling confident and happy." }
+  ],
 
-  formServiceOptions: [
-  "Botox & Fillers",
-  "Laser Hair Removal",
-  "HydraFacial",
-  "Chemical Peels",
-  "Microneedling",
-  "Body Contouring"
-],
+  formServiceOptions: ["Botox & Dysport", "Dermal Filler", "Laser Hair Removal", "CoolSculpting", "Signature Facial", "Chemical Peels"]
 }
 
-// Backward compat re-exports
+// Backward-compat re-exports
 export const BUSINESS = config.business
 export const SERVICES = config.services!
 export const TESTIMONIALS = config.testimonials!
