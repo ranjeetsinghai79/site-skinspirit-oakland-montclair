@@ -3,14 +3,14 @@ import type { SiteConfig } from "@core/web/types"
 export const config: SiteConfig = {
   business: {
     name: "SkinSpirit",
-    tagline: "Reveal Your Radiance Today",
+    tagline: "Radiant Skin, Confident You",
     phone: "(510) 368-7500",
     phoneHref: "tel:+15103687500",
     email: "montclair@skinspirit.com",
-    address: "2017 Mountain Blvd. , Oakland, CA-94611",
+    address: "2017 Mountain Blvd.",
     city: "Oakland",
-    serviceAreas: ["Oakland", "Montclair", "East Bay"],
-    license: "CA Medical License",
+    serviceAreas: ["Oakland", "Montclair"],
+    license: "Licensed & Certified",
     since: "2002",
     google_rating: "4.9",
     review_count: "200",
@@ -20,40 +20,40 @@ export const config: SiteConfig = {
   },
 
   services: [
-    { icon: "sparkles", title: "Botox & Dysport", desc: "Smooth fine lines and wrinkles for a refreshed, youthful appearance.", urgent: false },
-    { icon: "heart", title: "Dermal Filler", desc: "Restore volume, enhance contours, and achieve natural-looking rejuvenation.", urgent: false },
-    { icon: "star", title: "Laser Hair Removal", desc: "Achieve long-lasting smooth skin with advanced, comfortable laser technology.", urgent: false },
-    { icon: "thermometer", title: "CoolSculpting", desc: "Freeze away stubborn fat cells to sculpt and contour your body non-invasively.", urgent: false },
-    { icon: "shield-check", title: "Signature Facial", desc: "Experience a personalized facial treatment for glowing, healthy skin.", urgent: false },
-    { icon: "scissors", title: "Chemical Peels", desc: "Improve skin texture and tone, reducing imperfections for a radiant complexion.", urgent: false }
+    { icon: "sparkles", title: "Botox & Dysport", desc: "Smooth away wrinkles and fine lines for a refreshed appearance.", urgent: false },
+    { icon: "droplets", title: "Dermal Filler", desc: "Restore volume and contour to achieve a youthful, natural look.", urgent: false },
+    { icon: "heart", title: "Laser Hair Removal", desc: "Achieve long-lasting smooth skin with advanced laser technology.", urgent: false },
+    { icon: "shield-check", title: "Morpheus8", desc: "Fractionated RF microneedling for skin tightening and resurfacing.", urgent: false },
+    { icon: "star", title: "Signature Facial", desc: "Indulge in a customized facial for ultimate skin rejuvenation.", urgent: false },
+    { icon: "scissors", title: "Chemical Peels", desc: "Reveal brighter, smoother skin by gently exfoliating the surface.", urgent: false }
   ],
 
   testimonials: [
-    { name: "Sarah L.", location: "Oakland, CA", stars: 5, text: "I had a fantastic experience with my Botox treatment at SkinSpirit. The staff was incredibly professional and made me feel comfortable throughout the entire process. My results are subtle yet noticeable, exactly what I wanted! I'm so happy with how refreshed I look. Highly recommend their expertise!" },
-    { name: "Michael P.", location: "Montclair, CA", stars: 5, text: "The Dermal Filler treatment I received here was exceptional. The practitioner listened to my concerns and delivered results that look completely natural. It's been a few weeks, and I still feel great about the subtle enhancement. The clinic itself is beautiful and very welcoming." },
-    { name: "Jessica R.", location: "East Bay, CA", stars: 5, text: "My laser hair removal sessions have been a game-changer. After just a few treatments, I've seen a significant reduction in hair growth. The technicians are always gentle and thorough, explaining each step. It's truly worth the investment for the convenience and confidence it brings." }
+    { name: "Sarah L.", location: "Oakland, CA", stars: 5, text: "I had a wonderful experience with my Botox treatment at SkinSpirit. The staff was incredibly professional and made me feel comfortable throughout the entire process. My results are fantastic, and I look so much more refreshed. Highly recommend their expertise!" },
+    { name: "Michael P.", location: "Montclair, CA", stars: 5, text: "The dermal filler treatment I received at SkinSpirit exceeded my expectations. The practitioner was very knowledgeable and took the time to understand my goals. I'm thrilled with the natural-looking volume restoration. It was a truly positive experience from start to finish." },
+    { name: "Jessica R.", location: "Oakland, CA", stars: 5, text: "My laser hair removal sessions have been amazing! The technicians are so thorough and gentle, and I've seen incredible results after just a few treatments. SkinSpirit provides a clean, welcoming environment, and I always feel well cared for." }
   ],
 
   trustBadges: [
-    "20 Years Experience", "Highly Trained Experts", "Personalized Care", "Safe & Trusted Treatments", "Noticeable Results"
+    "20 Years Trusted Provider", "Highly Trained Experts", "Noticeable Results", "Safe & Trusted Treatments", "GAF Master Elite"
   ],
 
   stats: [
     { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
     { value: 20, label: "Yrs Experience", suffix: "+", decimals: 0 },
-    { value: 10000, label: "Happy Clients", suffix: "+", decimals: 0 }
+    { value: 100, label: "Treatments Offered", suffix: "+", decimals: 0 }
   ],
 
   reasons: [
     { icon: "award", title: "Certified Experts", desc: "Our team consists of highly trained and certified medical professionals." },
-    { icon: "sparkles", title: "Noticeable Results", desc: "We deliver effective treatments that provide visible and lasting improvements." },
-    { icon: "shield-check", title: "Safe & Trusted", desc: "Your safety is our priority with rigorously tested and approved procedures." },
-    { icon: "heart", title: "Personalized Journey", desc: "We tailor every treatment plan to your unique needs and aesthetic goals." },
-    { icon: "clock", title: "20 Years Experience", desc: "Benefit from two decades of leadership and innovation in medical aesthetics." },
-    { icon: "thumbs-up", title: "Client Satisfaction", desc: "We are dedicated to ensuring every client leaves feeling confident and happy." }
+    { icon: "sparkles", title: "Noticeable Results", desc: "Experience visible and natural-looking enhancements with our treatments." },
+    { icon: "shield-check", title: "Safe & Trusted", desc: "We prioritize your safety with proven, FDA-approved procedures." },
+    { icon: "clock", title: "20 Years Experience", desc: "Benefit from two decades of expertise in aesthetic medicine." },
+    { icon: "heart", title: "Personalized Care", desc: "Receive tailored treatment plans designed for your unique needs." },
+    { icon: "home", title: "Comfortable Environment", desc: "Relax in our modern, welcoming clinic designed for your comfort." }
   ],
 
-  formServiceOptions: ["Botox & Dysport", "Dermal Filler", "Laser Hair Removal", "CoolSculpting", "Signature Facial", "Chemical Peels"]
+  formServiceOptions: ["Botox & Dysport", "Dermal Filler", "Laser Hair Removal", "Morpheus8", "Signature Facial", "Chemical Peels"]
 }
 
 // Backward-compat re-exports
